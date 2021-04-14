@@ -8,7 +8,7 @@ PATH = "C:\Program Files (x86)\chromedriver.exe"
 driver = webdriver.Chrome(PATH)
 page = ("https://www.google.com")
 
-class ducks_search:
+class ducks_search():
 
     def __init__(self,driver):
         self.driver = driver
